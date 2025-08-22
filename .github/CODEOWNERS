@@ -1,0 +1,35 @@
+# CODEOWNERS file for storage-store-976
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-ml @Armor-test/grp-api @Armor-test/team-frontend
+
+# Directory ownership
+/web/ @Armor-test/dept-ui @Armor-test/team-reporting
+/helpers/ @Armor-test/squad-apps @Armor-test/grp-search
+/core/ @Armor-test/squad-ux @Armor-test/squad-payments
+/app/ @Armor-test/unit-devops @Armor-test/dept-security @Armor-test/dept-data
+/third_party/ @Armor-test/dept-ui @Armor-test/grp-storage
+/shared/ @Armor-test/grp-reporting @Armor-test/squad-product @Armor-test/squad-qa
+/examples/ @Armor-test/squad-tooling @Armor-test/squad-frontend
+/services/ @Armor-test/team-frontend @Armor-test/dept-reliability @Armor-test/squad-ux
+/migrations/ @Armor-test/squad-frontend @Armor-test/squad-ux @Armor-test/squad-payments
+/db/ @Armor-test/squad-reporting @Armor-test/squad-qa
+/views/ @Armor-test/squad-payments @Armor-test/dept-release @Armor-test/grp-ui
+/lib/ @Armor-test/squad-ml @Armor-test/dept-release @Armor-test/grp-integration
+
+# File type ownership
+*.config @Armor-test/dept-reliability @Armor-test/team-security @Armor-test/grp-search
+*.tsx @Armor-test/squad-api @Armor-test/unit-cloud
+*.xml @Armor-test/dept-billing @Armor-test/team-core @Armor-test/grp-storage
+*.cs @Armor-test/grp-api @Armor-test/squad-mobile
+*.rb @Armor-test/team-governance @Armor-test/dept-notifications
+*.go @Armor-test/squad-qa @Armor-test/grp-search @Armor-test/dept-notifications
+*.toml @Armor-test/squad-research @Armor-test/dept-data @Armor-test/unit-test
+*.ts @Armor-test/squad-database @Armor-test/dept-api
+*.js @Armor-test/unit-design @Armor-test/team-research @Armor-test/dept-automation
+*.h @Armor-test/team-governance @Armor-test/dept-reliability @Armor-test/squad-search
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
